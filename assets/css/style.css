@@ -470,11 +470,12 @@ section {
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
-  font-size: 26px;
-  font-weight: 700;
-  margin-top: 20px;
+  font-size: 32px;
+  font-weight: bold;
   margin-bottom: 20px;
-  color: #050d18;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
 }
 
 .resume .resume-item {
