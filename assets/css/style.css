@@ -129,6 +129,7 @@ h6 {
 
 #main {
   margin-left: 300px;
+
 }
 
 .container,
@@ -431,14 +432,14 @@ section {
 
 /*--------------------------------------------------------------
 # Akills
---------------------------------------------------------------*/
-.skills .progress {
+/* --------------------------------------------------------------*/
+/* .s .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
-}
-
+} */
+/* 
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
@@ -456,7 +457,7 @@ section {
 
 .skills .progress-bar-wrap {
   background: #dce8f8;
-  height: 10px;
+  height: 10pxskill;
 }
 
 .skills .progress-bar {
@@ -464,7 +465,7 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
-}
+} */
 
 /*--------------------------------------------------------------
 # Resume
@@ -1401,7 +1402,7 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 123, 255, 0.7);
+  background: rgba(67, 72, 78, 0.7);
   /* Semi-transparent blue overlay */
   color: white;
   display: flex;
@@ -1413,7 +1414,7 @@ section {
 
 .award-image:hover .award-info,
 .certification-image:hover .certification-info {
-  opacity: 1;
+  opacity: 25;
 }
 
 .degree h4,
@@ -1479,4 +1480,42 @@ section {
 
 .download-resume-btn i {
   margin-right: 5px;
+}
+
+.project-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.project-container h3 {
+  color: #333;
+}
+
+
+.carousel-inner img {
+  height: 200px;
+  /* Adjust this value as needed */
+  object-fit: cover;
+  /* This will ensure the image covers the area, cropping if necessary */
+  width: 100%;
+}
+
+.project-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* Limits to 3 lines */
+  -webkit-box-orient: vertical;
+}
+
+.award-image img,
+.certification-image img {
+  height: 400px;
+  /* Adjust as needed */
+  width: 100%;
+  object-fit: contain;
+  /* This will crop the image to fill the area */
 }
